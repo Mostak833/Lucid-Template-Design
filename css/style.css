@@ -1,0 +1,587 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+/* Header Start ----------------------------------- */
+header {
+  background-image: url(../images/Lucid1.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  min-height: 100vh;
+}
+.padding {
+  padding: 30px 0px 0px 0px;
+}
+.navbar-light .navbar-toggler {
+  color: transparent;
+  border-color: transparent;
+}
+span i {
+  color: #fff;
+}
+.navbar-light .navbar-nav .nav-link {
+  color: #fff;
+  font-size: 18px;
+  font-weight: 300;
+ text-align: center;
+  text-transform: capitalize;
+  padding: 0;
+  display: inline-block;
+  margin: 0px 0px 15px 20px;
+  position: relative;
+}
+.navbar-nav{
+  text-align: center;
+}
+.navbar-light .navbar-nav .nav-link:hover {
+  color: #fff;
+}
+.navbar-light .navbar-nav .nav-link::after {
+  position: absolute;
+  content: "";
+  left: 0;
+  bottom: -10px;
+  height: 4px;
+  width: 0;
+  transition: 0.4s ease-in-out;
+}
+.navbar-light .navbar-nav .nav-link:hover::after {
+  width: 45%;
+  background-color: #008ed6;
+}
+.navbar-light .navbar-nav .nav-link::before {
+  position: absolute;
+  content: "";
+  right: 0;
+  bottom: -10px;
+  height: 4px;
+width: 0;
+  transition: 0.4s ease-in-out;
+}
+.navbar-light .navbar-nav .nav-link:hover::before {
+  width: 45%;
+  background-color: #008ed6;
+}
+.forheight {
+  min-height: 85vh;
+  align-items: center;
+}
+.bannercontent h5 {
+  font-size: 18px;
+  font-weight: 400;
+  color: #008ed6;
+  text-transform: uppercase;
+  padding: 0px 0px 15px 0px;
+}
+.bannercontent h1 {
+  font-size: 50px;
+  font-weight: 500;
+  color: #fff;
+  padding: 0px 0px 15px 0px;
+}
+.bannercontent p {
+  font-size: 16px;
+  font-weight: 400;
+  color: #999999;
+  padding: 0px 0px 25px 0px;
+}
+.forbutton .btn-one {
+  color: #fff;
+  font-size: 20px;
+  font-weight: 500;
+  text-transform: uppercase;
+  border: 2px solid #008ed6;
+  border-radius: 5px;
+  background-color: #008ed6;
+  padding: 10px 20px 10px 20px;
+  margin: 0px 20px 0px 0px;
+}
+.forbutton .btn-one:hover {
+  background-color: transparent;
+  border: 2px solid #fff;
+}
+.forbutton .btn-tow {
+  color: #fff;
+  font-size: 20px;
+  font-weight: 500;
+  text-transform: uppercase;
+  border: 2px solid #fff;
+  border-radius: 5px;
+  background-color: transparent;
+  padding: 10px 20px 10px 20px;
+}
+.forbutton .btn-tow:hover {
+  background-color: #008ed6;
+  border: 2px solid #008ed6;
+}
+.phoneimgone {
+  position: absolute;
+  bottom: 0;
+  right: 8%;
+}
+/* Header End------------------------------------- */
+/* List of amazing features Start ---------------- */
+.sectionone {
+  border-bottom: 3px solid #dbd9d9;
+  padding: 100px 0px 90px 0px;
+}
+.commonfour h5 {
+  font-size: 18px;
+  font-weight: 500;
+  color: #008ed6;
+  text-align: center;
+  text-transform: uppercase;
+  padding: 0px 0px 6px 0px;
+}
+.commonfour h1 {
+  font-size: 40px;
+  font-weight: 500;
+  color: #000;
+  text-align: center;
+  padding: 0px 0px 10px 0px;
+}
+.commonfour span {
+  display: block;
+  height: 4px;
+  width: 8%;
+  margin: auto;
+  position: relative;
+}
+.commonfour span::after {
+  position: absolute;
+  content: "";
+  left: 0;
+  bottom: 0%;
+  height: 3px;
+  width: 0%;
+  transition: 0.4s ease-in-out;
+}
+.sectionone:hover .commonfour span::after {
+  width: 45%;
+  background-color: #008ed6;
+}
+.commonfour span::before {
+  position: absolute;
+  content: "";
+  right: 0;
+  bottom: 0%;
+  height: 3px;
+  width: 0%;
+  transition: 0.4s ease-in-out;
+}
+.sectionone:hover .commonfour span::before {
+  width: 45%;
+  background-color: #008ed6;
+}
+.foriconone {
+  padding: 50px 0px 25px 0px;
+}
+.foriconone i {
+  color: #008ed6;
+  width: 80px;
+  font-size: 30px;
+  font-weight: 600;
+  height: 80px;
+  border-radius: 50%;
+  box-shadow: 2px -1px 1px 3px #dbd9d9;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+}
+.sectionone .col-md-3 h1 {
+  font-size: 30px;
+  font-weight: 500;
+  color: #000;
+  text-align: center;
+  padding: 0px 0px 20px 0px;
+}
+.sectionone .col-md-3 p {
+  font-size: 16px;
+  font-weight: 400;
+  color: #999999;
+  text-align: center;
+  padding: 0px 0px 10px 0px;
+}
+/* List of amazing features End -------------------------------- */
+/* Beautiful on every device Start ----------------------------- */
+.sectiontow {
+  padding: 100px 0px 80px 0px;
+}
+.sectiontow .commonfour h5 {
+  text-align: unset;
+}
+.sectiontow .commonfour h1 {
+  text-align: unset;
+}
+.sectiontow .commonfour span {
+  margin: unset;
+}
+.sectiontow:hover .commonfour span::after {
+  width: 45%;
+  background-color: #008ed6;
+}
+.sectiontow:hover .commonfour span::before {
+  width: 45%;
+  background-color: #008ed6;
+}
+.commonfour p {
+  font-size: 16px;
+  font-weight: 400;
+  color: #999999;
+  padding: 15px 0px 40px 0px;
+}
+.for-list-four ul {
+  padding: 0;
+  margin: 0;
+  display: flex;
+}
+.for-list-four ul li {
+  list-style: none;
+}
+.for-list-four ul .forwidth {
+  width: 3%;
+  display: flex;
+  justify-content: center;
+}
+.for-list-four ul .forwidth i {
+  color: #008ed6;
+  font-size: 28px;
+  padding: 10px 0px 0px 0px;
+}
+.for-list-four ul li h6 {
+  color: #000;
+  text-transform: capitalize;
+  font-size: 20px;
+  font-weight: 500;
+  padding: 10px 0px 0px 15px;
+}
+/* Beautiful on every device End -------------------------------- */
+/* Super easy to customize Start -------------------------------- */
+.sectionthree {
+  padding: 100px 0px 45px 0px;
+  background-color: #f2f2f2;
+}
+.sectionthree .commonfour h5 {
+  text-align: unset;
+}
+.sectionthree .commonfour h1 {
+  text-align: unset;
+}
+.sectionthree .commonfour span {
+ margin: unset;
+}
+.sectionthree:hover .commonfour span::after {
+  width: 45%;
+  background-color: #008ed6;
+}
+.sectionthree:hover .commonfour span::before {
+  width: 45%;
+  background-color: #008ed6;
+}
+.commonfour p {
+  font-size: 16px;
+  font-weight: 400;
+  color: #999999;
+  padding: 15px 0px 10px 0px;
+}
+/* Super easy to customize End -------------------------------- */
+/* Testimonial Start ------------------------------------------ */
+.sectionfour {
+  background-image: url(../images/Lucid7.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  padding: 80px 0px 50px 0px;
+}
+.forborder {
+  padding: 10px 0px 100px 0px;
+}
+.sectionfour p i {
+  color: #fff;
+  font-size: 25px;
+  font-weight: 400;
+ 
+}
+.sectionfour .commonfour h1{
+ color: #fff;
+}
+.sectionfour:hover .commonfour span::after {
+  width: 45%;
+  background-color: #008ed6;
+}
+.sectionfour:hover .commonfour span::before {
+  width: 45%;
+  background-color: #008ed6;
+}
+.forimgcont {
+  display: flex;
+}
+.profileimg {
+  margin-right: 20px;
+  padding-top: 30px;
+}
+.namecont {
+  padding-top: 35px;
+}
+.namecont h1 {
+  font-size: 17px;
+  font-weight: 300;
+  text-transform: capitalize;
+  color: #fff;
+}
+.namecont h2 {
+  font-size: 17px;
+  font-weight: 500;
+  text-transform: capitalize;
+  color: #fff;
+}
+.owl-nav {
+  display: none;
+}
+.owl-dots {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.owl-dots .owl-dot span {
+  display: block;
+  width: 20px;
+  height: 20px;
+  background-color: rgba(255, 255, 255, 0.411);
+  border-radius: 50%;
+  margin: 8px;
+}
+.owl-dots .active span {
+  background-color: #fff;
+}
+/* Testimonial End -------------------------------------------------- */
+/* Like what see you Start ------------------------------------------ */
+.sectionfive {
+  background-color: #15141a;
+  padding: 60px 0px 60px 0px;
+}
+.sectionfive h5 {
+  color: #fff;
+  font-size: 22px;
+  font-weight: 500;
+  padding: 12px 0px 0px 0px;
+}
+.sectionfive h5 span {
+  font-weight: 100;
+}
+.sectionfive .forbutton .btn-one:hover {
+  background-color: transparent;
+  border: 2px solid #fff;
+}
+.sectionfive .forbutton .btn-tow:hover {
+  background-color: #008ed6;
+  border: 2px solid #008ed6;
+}
+/* Like what see you End ------------------------------------------- */
+/* Pricings & Plans Start ------------------------------------------ */
+.sectionsix {
+  padding: 100px 0px 100px 0px;
+}
+
+.sectionsix:hover .commonfour span::after {
+  width: 45%;
+  background-color: #008ed6;
+}
+.upcontentsix span::before {
+  position: absolute;
+  content: "";
+  right: 0;
+  bottom: 0%;
+  height: 3px;
+  width: 0%;
+  transition: 0.4s ease-in-out;
+}
+.sectionsix:hover .commonfour span::before {
+  width: 45%;
+  background-color: #008ed6;
+}
+.forbox {
+  border: 2px solid #000;
+}
+.forbox h1 {
+  font-size: 40px;
+  font-weight: 600;
+  text-align: center;
+  margin: 0;
+  text-transform: uppercase;
+  border-bottom: 2px solid #000;
+  padding: 10px 0px 10px 0px;
+}
+.forbox:hover.forbox h1{
+  color: #008ed6;
+}
+.forbox:hover .forwith{
+  background-color: #008ed6;
+  color: #fff;
+}
+.forbox:hover .forwith h2{
+  color: #fff;
+}
+.forbox:hover .forwith h4{
+  color: #fff; 
+}
+.forbox:hover .forbutton6 .btn-five{
+  color: #fff;
+  background-color: #008ed6;
+  border: 2px solid #fff;
+}
+.forwith h2 {
+  font-size: 50px;
+  font-weight: 700;
+  color: #000;
+  text-align: center;
+  margin: 0;
+  padding: 40px 0px 0px 0px;
+}
+.forwith h4 {
+  font-size: 16px;
+  font-weight: 400;
+  color: #999999;
+  text-align: center;
+  border-bottom: 2px solid #000;
+  padding: 0px 0px 50px 0px;
+}
+.forbox p {
+  font-size: 16px;
+  font-weight: 400;
+  color: #999999;
+  text-align: center;
+  padding: 10px 0px 20px 0px;
+}
+.forbox p span {
+  color: #008ed6;
+}
+.forbutton6 {
+  text-align: center;
+  padding: 0px 0px 15px 0px;
+}
+.forbutton6 .btn-five {
+  color: #000;
+  font-size: 20px;
+  font-weight: 500;
+  text-transform: uppercase;
+  border: 2px solid #008ed6;
+  border-radius: 5px;
+  background-color: transparent;
+  padding: 10px 20px 10px 20px;
+}
+/* Pricings & Plans End -------------------------------------- */
+/* Contact Us Start ------------------------------------------ */
+.sectionseven {
+  padding: 100px 0px 0px 0px;
+  background-color: #f2f2f2;
+  position: relative;
+}
+.sectionseven:hover .commonfour span::after {
+  width: 45%;
+  background-color: #008ed6;
+}
+.sectionseven:hover .commonfour span::before {
+  width: 45%;
+  background-color: #008ed6;
+}
+.abcdef {
+  padding: 0px 0px 250px 0px;
+}
+.foricon7 {
+  padding: 60px 0px 30px 0px;
+}
+.foricon7 i {
+  font-size: 40px;
+  color: #008ed6;
+}
+.foricon7 p {
+  font-size: 16px;
+  font-weight: 400;
+  color: #999999;
+}
+form {
+  background-color: #0a023a;
+  display: flex;
+  justify-content: space-between;
+  padding: 40px 48px 0px 48px;
+  position: absolute;
+  width: 55%;
+  top: 38%;
+  left: 50%;
+  transform: translateX(-50%);
+}
+form .leftside {
+  width: 50%;
+}
+form .leftside input {
+  width: 95%;
+  padding: 8px 20px 10px 15px;
+  border: 2px solid #444348;
+  background-color: transparent;
+  border-radius: 3px;
+  margin: 0px 0 30px;
+  color: #fff;
+}
+form .leftside input:focus {
+  outline: none;
+}
+form .rightside {
+  width: 50%;
+  text-align: right;
+}
+form .rightside textarea {
+  width: 95%;
+  padding: 8px 20px 10px 15px;
+  border: 2px solid #444348;
+  background-color: transparent;
+  border-radius: 3px;
+  margin: 0px 0 25px;
+  color: #fff;
+}
+form .rightside textarea:focus {
+  outline: none;
+}
+form .forbutton .btn-one{
+  margin: unset;
+  margin-bottom: 40px;
+  
+}
+/* Contact Us End ---------------------------------------- */
+/* Footer Start ------------------------------------------ */
+.sectioneight {
+  background-color: #15141a;
+  padding: 70px 0px 70px 0px;
+}
+.footericon ul {
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.footericon ul li {
+  list-style: none;
+  margin: 0px 13px;
+}
+.footericon ul li a {
+  font-size: 20px;
+  font-weight: 400;
+  color: #999999;
+  text-decoration: none;
+}
+.footericon ul li a:hover {
+  color: #008ed6;
+}
+.sectioneight h3 {
+  font-size: 18px;
+  font-weight: 400;
+  text-align: center;
+  color: #999999;
+  text-transform: uppercase;
+  padding-top: 20px;
+}
+/* Footer End -------------------------------------------- */
