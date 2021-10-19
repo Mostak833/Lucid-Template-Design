@@ -504,8 +504,10 @@
 */
 
 @media (min-width: 481px) and (max-width: 767px) {
+  .padding {
+    padding: 0px 0px 0px 0px;
+  }
   .forheight {
-    min-height: 85vh;
     align-items: center;
     text-align: center;
   }
@@ -518,6 +520,7 @@
   }
   .bannercontent p {
     font-size: 14px;
+    padding: 0px 0px 15px 0px;
   }
   .forbutton .btn-one {
     font-size: 12px;
@@ -686,13 +689,13 @@
 
 @media (min-width: 0px) and (max-width: 480px) {
   .forheight {
-    min-height: 85vh;
+    min-height: 50vh;
     align-items: center;
     text-align: center;
   }
   .bannercontent h5 {
     font-size: 15px;
-    padding: 20px 0px 11px 0px;
+    padding: 70px 0px 11px 0px;
   }
   .bannercontent h1 {
     font-size: 22px;
