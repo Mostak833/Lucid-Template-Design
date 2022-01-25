@@ -4,12 +4,13 @@
 }
 /* Header Start ----------------------------------- */
 header {
-  background-image: url(../images/Lucid1.png);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(../images/pexels-noah-erickson-404280.jpg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  position: relative;
   min-height: 100vh;
+  animation: 0.4s all ease-in-out;
 }
 .padding {
   padding: 30px 0px 0px 0px;
@@ -25,7 +26,6 @@ span i {
   color: #fff;
   font-size: 18px;
   font-weight: 300;
-  text-align: center;
   text-transform: capitalize;
   padding: 0;
   display: inline-block;
@@ -73,7 +73,7 @@ span i {
   font-weight: 400;
   color: #008ed6;
   text-transform: uppercase;
-  padding: 0px 0px 15px 0px;
+  padding: 150px 0px 15px 0px;
 }
 .bannercontent h1 {
   font-size: 50px;
@@ -84,7 +84,7 @@ span i {
 .bannercontent p {
   font-size: 16px;
   font-weight: 400;
-  color: #999999;
+  color: #ebebeb;
   padding: 0px 0px 25px 0px;
 }
 .forbutton .btn-one {
@@ -117,15 +117,18 @@ span i {
   border: 2px solid #008ed6;
 }
 .phoneimgone {
-  position: absolute;
-  bottom: 0;
-  right: 8%;
+  text-align: end;
+}
+.phoneimgone img {
+  width: 80%;
+  margin: auto;
+  padding-top: 90px;
 }
 /* Header End------------------------------------- */
 /* List of amazing features Start ---------------- */
 .sectionone {
   border-bottom: 3px solid #dbd9d9;
-  padding: 100px 0px 90px 0px;
+  padding: 100px 0px 70px 0px;
 }
 .commonfour h5 {
   font-size: 18px;
@@ -144,8 +147,8 @@ span i {
 }
 .commonfour span {
   display: block;
-  height: 4px;
-  width: 8%;
+  height: 5px;
+  width: 10%;
   margin: auto;
   position: relative;
 }
@@ -191,19 +194,32 @@ span i {
   align-items: center;
   margin: auto;
 }
-.sectionone .col-md-3 h1 {
+.sectionone .col-lg-3 h1 {
   font-size: 30px;
   font-weight: 500;
   color: #000;
   text-align: center;
   padding: 0px 0px 20px 0px;
 }
-.sectionone .col-md-3 p {
+.sectionone .col-lg-3 p {
   font-size: 16px;
   font-weight: 400;
   color: #999999;
   text-align: center;
   padding: 0px 0px 10px 0px;
+}
+.abcdefgh {
+  margin: 50px 0px 0px 0px;
+  border-radius: 5%;
+  transition: 0.4s all ease-in-out;
+}
+.forup {
+  border-radius: 5%;
+  transition: 0.4s all ease-in-out;
+  padding: 0px 15px 20px 15px;
+}
+.forup:hover {
+  box-shadow: 0px 0px 5px 0px #444348;
 }
 /* List of amazing features End -------------------------------- */
 /* Beautiful on every device Start ----------------------------- */
@@ -384,7 +400,6 @@ span i {
 .sectionsix {
   padding: 100px 0px 100px 0px;
 }
-
 .sectionsix:hover .commonfour span::after {
   width: 45%;
   background-color: #008ed6;
@@ -396,7 +411,7 @@ span i {
   bottom: 0%;
   height: 3px;
   width: 0%;
-  transition: 0.4s ease-in-out;
+  transition: 0.4s all ease-in-out;
 }
 .sectionsix:hover .commonfour span::before {
   width: 45%;
@@ -413,6 +428,7 @@ span i {
   text-transform: uppercase;
   border-bottom: 2px solid rgb(204 200 200);
   padding: 10px 0px 10px 0px;
+  transition: 0.3s all ease-in-out;
 }
 .forbox:hover.forbox h1 {
   color: #008ed6;
@@ -432,6 +448,9 @@ span i {
   background-color: #008ed6;
   border: 2px solid #fff;
 }
+.forwith {
+  transition: 0.4s all ease-in-out;
+}
 .forwith h2 {
   font-size: 50px;
   font-weight: 700;
@@ -439,6 +458,7 @@ span i {
   text-align: center;
   margin: 0;
   padding: 40px 0px 0px 0px;
+  transition: 0.4s all ease-in-out;
 }
 .forwith h4 {
   font-size: 16px;
@@ -447,6 +467,7 @@ span i {
   text-align: center;
   border-bottom: 2px solid rgb(204 200 200);
   padding: 0px 0px 50px 0px;
+  transition: 0.4s all ease-in-out;
 }
 .forbox p {
   font-size: 16px;
@@ -471,13 +492,13 @@ span i {
   border-radius: 5px;
   background-color: transparent;
   padding: 10px 20px 10px 20px;
+  transition: 0.4s all ease-in-out;
 }
 /* Pricings & Plans End -------------------------------------- */
 /* Contact Us Start ------------------------------------------ */
 .sectionseven {
   padding: 100px 0px 0px 0px;
   background-color: #f2f2f2;
-  position: relative;
 }
 .sectionseven:hover .commonfour span::after {
   width: 45%;
@@ -488,7 +509,7 @@ span i {
   background-color: #008ed6;
 }
 .abcdef {
-  padding: 0px 0px 250px 0px;
+  padding: 0px 0px 30px 0px;
 }
 .foricon7 {
   padding: 60px 0px 30px 0px;
@@ -502,23 +523,25 @@ span i {
   font-weight: 400;
   color: #999999;
 }
+.bottom90 {
+  padding-right: 0 !important;
+  padding-left: 0 !important;
+  margin-bottom: -90px;
+  z-index: 9999;
+}
 form {
+  border-radius: 10px;
   background-color: #0a023a;
   display: flex;
   justify-content: space-between;
-  padding: 40px 48px 0px 48px;
-  position: absolute;
-  width: 55%;
-  top: 38%;
-  left: 50%;
-  transform: translateX(-50%);
+  padding: 80px 50px 40px 50px;
 }
 form .leftside {
   width: 50%;
 }
 form .leftside input {
   width: 95%;
-  padding: 8px 20px 10px 15px;
+  padding: 8px 20px 7px 15px;
   border: 2px solid #444348;
   background-color: transparent;
   border-radius: 3px;
